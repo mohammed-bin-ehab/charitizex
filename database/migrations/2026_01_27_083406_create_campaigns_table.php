@@ -1,0 +1,39 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+
+    //     -title
+    // -image => it's was moved to the images table
+    // -goal => send message or notification to the upon reaching the goal Admin
+    // -status => ['open' , 'close']
+    // -category_id => no nullOnDelete & no cascadOnDelete
+    public function up(): void
+    {
+        Schema::create('campaigns', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->text('content');
+            $table->float('goal');
+            $table->enum('status', ['active', 'inactive'])->default('active');
+            $table->foreignId('category_id')
+                ->constrained();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('campaigns');
+    }
+};

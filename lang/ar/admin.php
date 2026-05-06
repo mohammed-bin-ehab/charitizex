@@ -1,0 +1,118 @@
+<?php
+return [
+
+    'dash' => 'لوحة التحكم',
+    'settings' => 'الاعدادات',
+    'sliders' => 'السلايدر',
+    'categories' => 'التصنيفات',
+    'campaigns' => 'الحملات',
+    'services' => 'الخدمات',
+    'statistics' => 'الاحصائيات',
+    'events' => 'الفعاليات',
+    'teams' => 'فريق العمل',
+    'testimonials' => 'آراء العملاء',
+    'lang' => 'اللغات',
+    'about' => 'من نحن',
+    'contact' => 'تواصل معنا',
+    'blog' => 'المدونة',
+    'faq' => 'الأسئلة الشائعة',
+    'login' => 'تسجيل الدخول',
+    'register' => 'إنشاء حساب',
+    'logout' => 'تسجيل الخروج',
+    'settings' => 'الإعدادات',
+    'profile' => 'الملف الشخصي',
+    'notifications' => 'الإشعارات',
+    'messages' => 'الرسائل',
+    'reports' => 'التقارير',
+    'users' => 'المستخدمون',
+    'roles' => 'الأدوار',
+    'permissions' => 'الصلاحيات',
+    'number' => 'العدد',
+
+    'add sliders' => 'إضافة سلايدر',
+    'all sliders' => 'جميع السلايدرز',
+    'edit sliders' => 'تعديل السلايدر',
+
+    'add categories' => 'إضافة تصنيف',
+    'all categories' => 'جميع التصنيفات',
+    'edit categories' => 'تعديل التصنيف',
+
+    'add campaigns' => 'إضافة حملة',
+    'all campaigns' => 'جميع الحملات',
+    'edit campaigns' => 'تعديل الحملة',
+
+    'add services' => 'إضافة خدمات',
+    'all services' => 'جميع الخدمات',
+    'edit services' => 'تعديل الخدمات',
+
+    'add events' => 'إضافة اجراءات',
+    'all events' => 'جميع الاجراءات',
+    'edit events' => 'تعديل الاجراءات',
+
+    'add teams' => ' إضافة فريق',
+    'all teams' =>  ' جميع الفريق',
+    'edit teams' => ' تعديل الفريق',
+
+    'add testimonials' => ' إضافة راي',
+    'all testimonials' => ' جميع الاراء',
+    'edit testimonials' => ' تعديل الاراء',
+
+    'title' => 'العنوان',
+    'image' => 'الصورة',
+    'gallery' => 'معرض الصور',
+    'content' => 'المحتوى',
+    'icon' => 'ايقونة',
+    'id' => 'المعرّف',
+    'created_at' => 'تاريخ الإنشاء',
+    'updated_at' => 'آخر تعديل',
+    'actions' => 'الإجراءات',
+
+    'button 1 text' => 'نص الزر الأول',
+    'button 1 link' => 'رابط الزر الأول',
+    'button 2 text' => 'نص الزر الثاني',
+    'button 2 link' => 'رابط الزر الثاني',
+
+    'english button 1 text' => 'نص الزر الأول (إنجليزي)',
+    'arabic button 1 text' => 'نص الزر الأول (عربي)',
+    'english button 2 text' => 'نص الزر الثاني (إنجليزي)',
+    'arabic button 2 text' => 'نص الزر الثاني (عربي)',
+
+    'english title' => 'العنوان (إنجليزي)',
+    'arabic title' => 'العنوان (عربي)',
+    'english content' => 'المحتوى (إنجليزي)',
+    'arabic content' => 'المحتوى (عربي)',
+
+    'english position' => 'المنصب (انجليزي)',
+    'arabic position' => 'المنصب (عربي)',
+
+    'save' => 'حفظ',
+    'update' => 'تحديث',
+    'goal' => 'الهدف',
+    'status' => 'الحالة',
+
+    'payments' => 'طرق التبرع',
+    'donors' => 'المتبرعون',
+    'donations' => 'التبرعات',
+    'subscriptions' => 'المشتركون',
+
+    'received_at' => 'تاريخ الاستلام',
+    'name' => 'الاسم',
+    'email' => 'البريد الإلكتروني',
+    'subject' => 'الموضوع',
+    'subscribe_at' => 'تاريخ الاشتراك',
+
+    'donor' => 'المتبرع',
+    'campaign' => 'حملة التبرع',
+    'amount' => 'المبلغ',
+    'payed with' => 'تم الدفع عبر',
+    'donate_at' => 'تاريخ التبرع',
+
+    'total campaign' => 'اجمالي حملات التبرع',
+    'total donations' => 'اجمالي التبرعات',
+
+    'facebook' => 'فيس بوك',
+    'instagram' => 'انستغرام',
+    'x' => 'تويتر/اكس',
+    'youtube' => 'يوتيوب',
+    'linked in' => 'لنكد ان',
+];
