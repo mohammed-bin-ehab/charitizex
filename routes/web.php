@@ -23,9 +23,6 @@ Route::post('stripe/webhook', [PaymentController::class, 'handleWebhook'])
 Route::prefix(LaravelLocalization::setLocale())->group(function () {
 
 
-    // Route::get('/', function () {
-    //     return view('welcome');
-    // });
     // WebSite
     Route::name('front.')->group(function () {
         Route::get('/', [MainController::class, 'index'])->name('index');
@@ -48,10 +45,6 @@ Route::prefix(LaravelLocalization::setLocale())->group(function () {
         Route::get('/payment/cancel', [PaymentController::class, 'donate_cancel'])
             ->name('donate_cancel');
     });
-    // Route::get('/dashboard', function () {
-    //     return view('dashboard');
-    // })->middleware(['auth', 'verified'])->name('dashboard');
-
 
     //Dashboard
     Route::middleware(['auth', 'verified', 'admin'])->group(function () {
